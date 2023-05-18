@@ -1,0 +1,120 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(175, 205, 248);
+  width: 600px;
+  height: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form input {
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 6px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.sums-container {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+h2 {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(101, 228, 101);
+}
+h2:nth-child(2) {
+  background-color: rgb(243, 91, 91);
+}
+
+select {
+  width: 82%;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 4px 0px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+}
+
+.form button {
+  background-color: rgb(227, 114, 193);
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 20px;
+  margin: 10px 0px 40px 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(187, 45, 200);
+}
+.select-transaction {
+  text-align: center;
+}
+.select-transaction select {
+  width: 40%;
+  margin-left: 10px;
+}
+.file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactions button {
+  background-color: rgb(226, 125, 125);
+  margin-left: 10px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.transactions button:hover {
+  background-color: red;
+}
+
+input[type="file"] {
+  display: none;
+}
+.file label {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: rgb(81, 181, 111);
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.file label:hover {
+  background-color: green;
+}
